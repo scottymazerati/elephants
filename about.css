@@ -1,0 +1,116 @@
+body {
+    background-image: url(pictures/toursimage.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    color: peachpuff;
+    background-color: black;
+   /* height: 11rem;*/
+   width: fit-content;
+   height: fit-content;
+    display: flex;
+    border: 3px solid rgb(179, 154, 13); 
+    border-radius: 3rem;
+    text-align: justify;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+
+
+button {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: 1rem;
+    border: 2.5px solid rgb(179, 154, 13);
+    border-radius: 3rem;
+    background-color: black;
+    color: peachpuff;
+    
+}
+
+button:hover {
+    background-color: peachpuff;
+    color: black;
+    font-size: 1.5rem;
+    cursor:  pointer;
+    
+    
+}
+
+.logo {
+    border: 3px solid silver;
+    border-radius: 4.5rem;
+    /*margin-top: 0.5rem;
+    margin-left: rem;
+    margin-bottom: 1rem;*/
+    margin-left: 25px;
+    margin-top: 15px;
+    display: flex;
+}
+
+h1 {
+    
+    color: rgb(233, 177, 128);
+    font-size: 3rem;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: "Shrikhand";
+    font-weight: 100;
+    margin: auto;
+    margin-left: 2rem;
+    display: flex;
+    
+}
+
+h2 {
+
+    color: peachpuff;
+}
+
+h4 {
+    color: rgb(233, 177, 128);
+    font-size: 1rem;
+    margin-top: 30px;
+    font-family: "Shrikhand";
+    font-weight: 100;
+    border: 2.5px solid lightblue;
+    border-radius: 3rem;
+    background-color: peachpuff;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2.5px;
+}
+
+.container1 {
+    font-family: "Shrikhand";
+    font-weight: lighter;
+    margin: auto;
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    
+    
+    
+    
+}
+
+.box3 {
+    border: 3px solid rgb(179, 154, 13); 
+    border-radius: 3rem;
+    width: 80vw;
+    height: fit-content;
+    color: rgb(233, 177, 128);
+    background-color: black;
+    text-align: center;
+    padding: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 5rem;
+    opacity: 0.90;
+}
