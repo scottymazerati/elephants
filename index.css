@@ -1,0 +1,378 @@
+
+ body {
+    background-image: url(pictures/toursimage.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+
+/*body {
+    background-image:url(pictures/mainTree.jpg);
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0S;
+    
+
+
+}*/
+
+header {
+    color: peachpuff;
+    background-color: black;
+    /*height: 11rem;*/
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    border: 3px solid rgb(179, 154, 13); 
+    border-radius: 3rem;
+    /*margin: 2rem;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    align-content: center;*/
+    margin: auto;
+    margin-top: 8rem;
+    padding: 1rem;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: 1rem;
+    border: 2.5px solid rgb(179, 154, 13);
+    border-radius: 3rem;
+    background-color: black;
+    color: peachpuff;
+    
+}
+
+button:hover {
+    background-color: peachpuff;
+    color: black;
+    font-size: 1.5rem;
+    cursor:  pointer;
+    
+    
+}
+
+.logo {
+    border: 3px solid silver;
+    border-radius: 4.5rem;
+    /*margin-top: 0.5rem;
+    margin-left: rem;
+    margin-bottom: 1rem;*/
+    
+    display: flex;
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+
+h1 {
+    
+    color: rgb(233, 177, 128);
+    font-size: 3rem;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: "Shrikhand";
+    font-weight: 100;
+    margin: auto;
+    margin-left: 2rem;
+    display: flex;
+    text-align: center;
+    
+}
+
+h2 {
+
+    color: peachpuff;
+    
+}
+
+h3{
+    font-family: "Shrikhand";
+    color: rgb(233, 177, 128);
+    letter-spacing: 2px;
+}
+
+h4 {
+    color: rgb(233, 177, 128);
+    font-size: 1rem;
+    margin-top: 30px;
+    font-family: "Shrikhand";
+    font-weight: 100;
+    border: 2.5px solid lightblue;
+    border-radius: 3rem;
+    background-color:  rgb(233, 177, 128);
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2.5px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    opacity: 0.90;
+    height: 400px;
+    
+    width: 70vw;
+    /*height: 40vh;*/
+    
+}
+
+
+.card1, .card2, .card3, .card4, .card5, .card6, 
+.card7, .card8, .card9, .card10, .card11, .card12 {
+    display: inline-block;
+    background-color: black; 
+    width: 350px;
+    height: 350px;
+    /*border: 2px solid gold;*/
+    border: 3px solid rgb(179, 154, 13);
+    border-radius: 1rem;
+    margin: auto;
+   /* backface-visibility: hidden;*/
+    /*background-image: url(pictures/peanut.jpeg);*/
+}
+
+
+.pics {
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 170px;
+}
+
+
+.card1:hover:after {
+    content: attr(data-tooltip1);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+
+}
+.card2:hover:after {
+    content: attr(data-tooltip2);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+    position:
+
+}
+.card3:hover:after {
+    content: attr(data-tooltip3);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+
+}
+.card4:hover:after {
+    content: attr(data-tooltip4);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+    position:
+
+}
+.card5:hover:after {
+    content: attr(data-tooltip5);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+
+}
+.card6:hover:after {
+    content: attr(data-tooltip6);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+    position:
+
+}
+.card7:hover:after {
+    content: attr(data-tooltip7);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+
+}
+.card8:hover:after {
+    content: attr(data-tooltip8);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+    position:
+
+}
+.card9:hover:after {
+    content: attr(data-tooltip9);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+
+}
+.card10:hover:after {
+    content: attr(data-tooltip10);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+    position:
+
+}
+.card11:hover:after {
+    content: attr(data-tooltip11);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+
+}
+.card12:hover:after {
+    content: attr(data-tooltip12);
+    color: black;
+    background-color: wheat;
+    font-size: 1.25rem;
+    display: flex;
+    /*display: inline-block;*/
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    z-index: 2000;
+    width: 275px;
+    position:
+
+}
+
+}
+
+/*.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    z-index: 2;
+  }
+  
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+  }*/
+  
+    
+
+
+
+
